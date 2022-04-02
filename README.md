@@ -1,7 +1,7 @@
 # logos-cmd.github.io
 The Logos-cmd extension you can either copy-paste or text download, it's your choice :) 
 <br>
-[Go to page](https://)
+[Go to page](https://logos-cmd.github.io)
 <br>
 or
 <br>
