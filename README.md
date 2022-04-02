@@ -5,4 +5,4 @@ The Logos-cmd extension you can either copy-paste or text download, it's your ch
 <br>
 or
 <br>
-[Download](https://)
+[Download](https://github.com/logos-cmd/logos-cmd.github.io/releases/download/code/logos-cmd.txt)
