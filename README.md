@@ -1,5 +1,5 @@
 # logos-cmd.github.io
-The Logos-cmd extension copy-paste or text download
+The Logos-cmd extension you can either copy-paste or text download, it's your choice :) 
 <br>
 [Go to page](https://)
 <br>
