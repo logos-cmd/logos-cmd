@@ -1,4 +1,4 @@
-You first have to copy the code then paste it in [logos](https://calormen.com/jslogo)
+You first have to copy the code then paste it in [Logos](https://calormen.com/jslogo)
 ```
 to \cmd_displayname :label :length
   cs
@@ -72,7 +72,7 @@ end
 to \cmd_logo :label :repcount :rt1
   
   repeat 144 [
-    
+    cmd_cleartext
     setlabelheight repcount
     penup
     fd repcount * repcount / :repcount
@@ -98,6 +98,7 @@ to \cmd_help
   ct
   hideturtle
   print[=--= Help =--=]
+  print[]
   print[\cmd_cs]
   print[\cmd_clearscreen]
   print[\cmd_ct]
@@ -115,6 +116,14 @@ to \cmd_help
   print[\cmd_showturtle]
   print[\cmd_square length]
   print[\cmd_wave]
+  print[\move_fd length]
+  print[\move_bk length]
+  print[\move_rt length]
+  print[\move_lt length]
+  print[]
+  print[Help Command]
+  print[/help]
+  print[/cmd_help]
 end
 
 to \move_fd :length
@@ -132,9 +141,4 @@ end
 to \move_lt :length
   lt :length
 end
-
-
-  
-
-  
 ```
