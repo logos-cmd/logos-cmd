@@ -126,6 +126,39 @@ to \cmd_help
   print[/cmd_help]
 end
 
+to \cmd_help
+  cs
+  ct
+  hideturtle
+  print[=--= Help =--=]
+  print[]
+  print[\cmd_cs]
+  print[\cmd_clearscreen]
+  print[\cmd_ct]
+  print[\cmd_cleartext]
+  print[\cmd_displayname [name] number]
+  print[\cmd_decagon length]
+  print[\cmd_fill color]
+  print[\cmd_help]
+  print[\cmd_hexagon length]
+  print[\cmd_hideturtle]
+  print[\cmd_logo label number rt]
+  print[\cmd_pentagon length]
+  print[\cmd_resetcolor]
+  print[\cmd_setcolor color]
+  print[\cmd_showturtle]
+  print[\cmd_square length]
+  print[\cmd_wave]
+  print[\move_fd length]
+  print[\move_bk length]
+  print[\move_rt length]
+  print[\move_lt length]
+  print[]
+  print[Help Command]
+  print[/help]
+  print[/cmd_help]
+end
+
 to \move_fd :length
   fd :length
 end
