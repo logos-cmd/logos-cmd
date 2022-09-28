@@ -1,5 +1,5 @@
 You first have to copy the code then paste it in [Logos](https://calormen.com/jslogo)
-```
+```LOGO
 to \cmd_displayname :label :length
   cs
   ct
