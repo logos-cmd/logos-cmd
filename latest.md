@@ -1,6 +1,5 @@
 You first have to copy the code then paste it in [Logos](https://calormen.com/jslogo)
-
-```
+```logoscmd
 to \cmd_displayname :label :length
   cs
   ct
@@ -175,4 +174,20 @@ end
 to \move_lt :length
   lt :length
 end
+
+to \done :string
+  ct
+  print :string
+end
+
+to printf :string
+  print :string
+  hideturtle
+end
+ct
+printf[Welcome to a new Logo Interpreter]
+printf[To clear this screen use \done.]
+printf[Press the Clear button, this program still works even when you clear it.]
+printf[ ]
+printf[Go to Library and press Clear Library if you want to uninstall (Removes all functions)]
 ```
